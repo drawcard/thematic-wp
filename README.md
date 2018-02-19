@@ -42,3 +42,23 @@ License URI:        http://opensource.org/licenses/MIT
 ```npm start```
 
 6. Access the development site via LiveReload: http://localhost:3000
+
+## Extras
+You may also want to install the following useful plugins to your site.
+```bash
+wp plugin install 
+elementor
+elementor-pro
+fakerpress
+mass-pagesposts-creator
+https://github.com/wp-sync-db/wp-sync-db/archive/master.zip 
+https://github.com/wp-sync-db/wp-sync-db-media-files/archive/master.zip 
+https://github.com/wp-sync-db/wp-sync-db-multisite-tools/archive/delicious-brains.zip 
+https://github.com/wp-sync-db/wp-sync-db-cli/archive/master.zip 
+```
+
+And of course get rid of this stuff
+```
+wp plugin uninstall --deactivate hello
+wp theme uninstall twentyfifteen twentysixteen twentyseventeen
+```
