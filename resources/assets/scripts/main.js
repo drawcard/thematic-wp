@@ -1,6 +1,11 @@
 // import external dependencies
 import 'jquery';
 
+// Thematic libraries
+import 'uikit';
+import '@webcomponents/custom-elements';
+import 'clarity-icons';
+
 // Import everything from autoload
 import "./autoload/**/*"
 
