@@ -1,8 +1,8 @@
-<header class="banner">
+<header>
   <nav id="navbar-top" class="uk-navbar-container uk-padding-small" uk-navbar>
       <div class="uk-navbar-left">
         <a class="brand" href="{{ home_url('/') }}">
-          <img src="@asset('images/logo.svg')">
+          <img class="uk-padding" src="@asset('images/logo.svg')">
         </a>
       </div>
       <div class="uk-navbar-center">
