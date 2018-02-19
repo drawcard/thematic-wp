@@ -9,7 +9,7 @@
     ]
   },
   "publicPath": "/wp-content/themes/pinnacle-sage9",
-  "devUrl": "https://pinnacle.site",
+  "devUrl": "https://pinnacle.test",
   "proxyUrl": "http://localhost:3000",
   "cacheBusting": "[name]_[hash:8]",
   "watch": [
