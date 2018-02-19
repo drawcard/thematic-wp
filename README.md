@@ -46,14 +46,14 @@ License URI:        http://opensource.org/licenses/MIT
 ## Extras
 You may also want to install the following useful plugins to your site.
 ```bash
-wp plugin install 
-elementor
-elementor-pro
-fakerpress
-mass-pagesposts-creator
-https://github.com/wp-sync-db/wp-sync-db/archive/master.zip 
-https://github.com/wp-sync-db/wp-sync-db-media-files/archive/master.zip 
-https://github.com/wp-sync-db/wp-sync-db-multisite-tools/archive/delicious-brains.zip 
+wp plugin install --activate \
+elementor \
+elementor-pro \
+fakerpress \
+mass-pagesposts-creator \
+https://github.com/wp-sync-db/wp-sync-db/archive/master.zip \
+https://github.com/wp-sync-db/wp-sync-db-media-files/archive/master.zip \
+https://github.com/wp-sync-db/wp-sync-db-multisite-tools/archive/delicious-brains.zip \
 https://github.com/wp-sync-db/wp-sync-db-cli/archive/master.zip 
 ```
 
