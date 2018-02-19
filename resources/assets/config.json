@@ -8,8 +8,8 @@
       "./scripts/customizer.js"
     ]
   },
-  "publicPath": "/wp-content/themes/pinnacle-sage9",
-  "devUrl": "https://pinnacle.test",
+  "publicPath": "/wp-content/themes/your-theme-name",
+  "devUrl": "https://your-development-vm-url.test",
   "proxyUrl": "http://localhost:3000",
   "cacheBusting": "[name]_[hash:8]",
   "watch": [
