@@ -22,7 +22,7 @@ Before you begin, make sure your development VM is up and running!
   "devUrl": "https://your-development-vm-url.test",
 ```
 
-5. Edit the Theme CSS header in ```resources/assets/style.css```:
+5. Edit the Theme CSS header in ```resources/style.css```:
 ```css
 /*
 Theme Name:         Thematic + Sage 9
@@ -41,4 +41,4 @@ License URI:        http://opensource.org/licenses/MIT
 7. Fire up LiveReload
 ```npm start```
 
-6. Access the development site via LiveReload: https://localhost:3000
+6. Access the development site via LiveReload: http://localhost:3000
