@@ -8,8 +8,8 @@
       "./scripts/customizer.js"
     ]
   },
-  "publicPath": "/wp-content/themes/your-theme-name",
-  "devUrl": "https://your-development-vm-url.test",
+  "publicPath": "/wp-content/themes/thematic-wp",
+  "devUrl": "https://wpmaster.test",
   "proxyUrl": "http://localhost:3000",
   "cacheBusting": "[name]_[hash:8]",
   "watch": [
