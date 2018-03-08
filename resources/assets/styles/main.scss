@@ -15,13 +15,12 @@
 //@import "../../../node_modules/sanitize.css/sanitize.css";
 //@import "../../../node_modules/gutenberg-css/dist/gutenberg.css" print;
 //@import "~gutenberg-css/dist/themes/modern" print;
-
 // UI Kit SCSS
 @import "../../../node_modules/uikit/src/scss/mixins";
 @import "../../../node_modules/uikit/src/scss/variables";
 @import "../../../node_modules/uikit/src/scss/uikit";
-
 /** Import theme styles */
+
 @import "common/global";
 @import "components/buttons";
 @import "components/comments";
@@ -33,4 +32,3 @@
 @import "layouts/pages";
 @import "layouts/posts";
 @import "layouts/tinymce";
-
