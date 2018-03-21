@@ -90,3 +90,15 @@ Container::getInstance()
             'view' => require dirname(__DIR__).'/config/view.php',
         ]);
     }, true);
+
+/**
+ * Fix problems where wp_texturize interferes with post content
+ * https://core.trac.wordpress.org/ticket/17926#comment:2
+ */
+
+//Page headings only
+remove_filter( 'the_title', 'wptexturize' );
+
+//remove_filter( 'the_content', 'wptexturize' );
+//remove_filter( 'the_excerpt', 'wptexturize' );
+//remove_filter( 'comment_text', 'wptexturize' );
